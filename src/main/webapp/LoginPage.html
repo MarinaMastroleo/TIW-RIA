@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LoginPage</title>
+<script src="js/utils.js" charset="utf-8" defer></script>
+<script src="js/LoginPage.js" charset="utf-8" defer></script>
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="divLogin">
+
+		<h2>Benvenuto nella pagina di Login!</h2>
+		<h4>Inserisci le credenziali per accedere</h4>
+
+		<form id="formLogin" action="#" class="formLogin">
+			<table class="tabellaLogin">
+				<tr>
+					<td><input type="email" name="email" placeholder="email"
+						required></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="psw" placeholder="password"
+						required></td>
+				</tr>
+				<tr>
+					<td colspan="2"><p id="erroreLogin"></p></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input id="bottoneLogin" class="login-button"
+						type="button" value="Login"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

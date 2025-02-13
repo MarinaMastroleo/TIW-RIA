@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HomePage</title>
+<script src="js/utils.js" charset="utf-8" defer></script>
+<script src="js/HomeElements.js" charset="utf-8" defer></script>
+<script src="js/Home.js" charset="utf-8" defer></script>
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<div>
+		<table class="logUtente">
+			<tr>
+				<td id="benvenuto">Felice di vederti <span id="buyer"></span>
+				</td>
+				<td><input id="bottoneLogout" class="login-button"
+					type="button" value="Logout"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="menu">
+		<table class="barraMenu">
+			<tr>
+				<td><input id="bottoneHome" type="button" value="Home"
+					class="bottoneNav"></td>
+				<td><input id="bottoneCarrello" type="button" value="Carrello"
+					class="bottoneNav"></td>
+				<td><input id="bottoneOrdini" type="button" value="Ordini"
+					class="bottoneNav"></td>
+				<td>
+					<form id="formRicerca" class="form-label" action="#">
+						Inserisci una parola chiave per cercare un prodotto: <input
+							id="testoRicerca" type="text" name="keyword" class="custom-input"
+							required> <input id="bottoneRicerca" type="button"
+							class="custom-button" value="Cerca">
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="divCentrato">
+		<div id="messaggio"></div>
+	</div>
+	<div id="listResults" class="divCentrato"></div>
+	<div id="ordini" class="divCentrato"></div>
+	<div id="cart" class="divCentrato"></div>
+	<div id="listSuggested" class="divCentrato"></div>
+</body>
+</html>

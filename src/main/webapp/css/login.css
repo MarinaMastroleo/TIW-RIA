@@ -1,0 +1,81 @@
+input[type="email"], input[type="password"] {
+	width: 300px;
+	height: 35px;
+	border-radius: 20px;
+	padding: 5px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+.login-button {
+	background-color: rgb(219, 141, 7);
+	border-radius: 10px;
+	font-size: 1.2em;
+	padding: 10px 20px;
+	font-size: 25px;
+	border: 1px solid #f39c12;
+	box-shadow: 0px 6px 0px #d35400;
+	transition: all .1s;
+}
+
+ .custom-input {
+	width: 300px;
+	height: 35px;
+	border-radius: 20px;
+	padding: 5px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+.divLogin{
+	margin-top: 8em;
+	font-size: 150%;
+}
+
+.tabellaLogin {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+table.tabellaLogin input[type=email], table.tabellaLogin input[type=password] {
+	font-size: 90%;
+	width: 16em;
+}
+
+table.tabellaLogin input[type=button] {
+	font-size: 90%;
+	width: 5em;
+}
+
+table.tabellaLogin td[colspan="2"] {
+	text-align: center;
+}
+
+.messaggioErrore {
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.messaggioNotifica {
+	color: gray;
+	font-weight: bold;
+	text-align: center;
+}
+
+body {
+	background-image: url("../images/wall.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*
+body {
+	background-color: #f5d4bc;
+}
+*/
